@@ -7,7 +7,8 @@ using UnityEngine;
 //animate player from A tot B or B to A 
 //past de locatie van de speler aan in info
 
-public class BorderCommunicationPollen : MonoBehaviour {
+public class BorderTreeCommunication : MonoBehaviour {
+
 
 	//voor de animatie/verplaatsing
 	public Animator playerMovement;
@@ -22,20 +23,20 @@ public class BorderCommunicationPollen : MonoBehaviour {
 	//checked of er op het object geklikt word
 	void OnMouseDown(){
 		
-		//checked of speler in Communication (3) is
-		//zo ja, animeer naar Pollen (4)
-		if(PlayerInfo.playerLocation == 3){
-			Debug.Log(PlayerInfo.playerLocation);
-			playerMovement.Play("CommunicationToPollen");
-			PlayerInfo.playerLocation = 4;
+		//checked of speler in Tree (2) is
+		//zo ja, animeer naar Communication (3)
+		if(PlayerInfo.playerLocation == 2){
+			//Debug.Log(PlayerInfo.playerLocation);
+			playerMovement.Play("TreeToCommunication");
+			PlayerInfo.playerLocation = 3;
 		}	
 
-		//checked of speler in Pollen (4) is
-		//zo ja, animeer naar Communication (3)
-		else if(PlayerInfo.playerLocation == 4){
-			Debug.Log(PlayerInfo.playerLocation);
-			playerMovement.Play("PollenToCommunication");
-			PlayerInfo.playerLocation = 3;
+		//checked of speler in Communication (3) is
+		//zo ja, animeer naar Tree (2)
+		else if(PlayerInfo.playerLocation == 3){
+			//Debug.Log(PlayerInfo.playerLocation);
+			playerMovement.Play("CommunicationToTree");
+			PlayerInfo.playerLocation = 2;
 		}
 
 

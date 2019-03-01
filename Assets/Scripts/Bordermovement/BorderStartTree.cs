@@ -27,7 +27,7 @@ public class BorderStartTree : MonoBehaviour {
 		//checked of speler in start (1) is
 		//zo ja, animeer naar tree (2)
 		if(PlayerInfo.playerLocation == 1){
-			Debug.Log(PlayerInfo.playerLocation);
+			//Debug.Log(PlayerInfo.playerLocation);
 			playerMovement.Play("StartToTree");
 			PlayerInfo.playerLocation = 2;
 		}	
@@ -35,7 +35,7 @@ public class BorderStartTree : MonoBehaviour {
 		//checked of speler in Tree (2) is
 		//zo ja, animeer naar Start (1)
 		else if(PlayerInfo.playerLocation == 2){
-			Debug.Log(PlayerInfo.playerLocation);
+			//Debug.Log(PlayerInfo.playerLocation);
 			playerMovement.Play("TreeToStart");
 			PlayerInfo.playerLocation = 1;
 		}

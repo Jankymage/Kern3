@@ -25,7 +25,7 @@ public class BorderPollenSuckers : MonoBehaviour {
 		//checked of speler in Pollen (4) is
 		//zo ja, animeer naar Suckers (5)
 		if(PlayerInfo.playerLocation == 4){
-			Debug.Log(PlayerInfo.playerLocation);
+			//Debug.Log(PlayerInfo.playerLocation);
 			playerMovement.Play("PollenToSuckers");
 			PlayerInfo.playerLocation = 5;
 		}	
@@ -33,7 +33,7 @@ public class BorderPollenSuckers : MonoBehaviour {
 		//checked of speler in Suckers (5) is
 		//zo ja, animeer naar Pollen (4)
 		else if(PlayerInfo.playerLocation == 5){
-			Debug.Log(PlayerInfo.playerLocation);
+			//Debug.Log(PlayerInfo.playerLocation);
 			playerMovement.Play("SuckersToPollen");
 			PlayerInfo.playerLocation = 4;
 		}
