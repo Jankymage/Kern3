@@ -10,6 +10,7 @@ using UnityEngine;
 public class SuckersInteract : MonoBehaviour {
 
 	public PlayerInfo playerInfo;
+	public GameObject pollenVisable;
 
 	//checked of er op het object geklikt word
 	void OnMouseDown(){
@@ -20,6 +21,9 @@ public class SuckersInteract : MonoBehaviour {
 			//Debug.Log(playerInfo.gameState);
 			//zet image slacking suckers deactief 
 			//zet image active suckers actief
+
+			pollenVisable.SetActive(true);
+
 		}
 
 
