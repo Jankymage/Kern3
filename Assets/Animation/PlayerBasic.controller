@@ -70,14 +70,14 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &1102157914425879518
+--- !u!1102 &1102360064542809026
 AnimatorState:
   serializedVersion: 5
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: TreeToStart
-  m_Speed: 1
+  m_Speed: -1
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -89,20 +89,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 9ed191718d882a54bb5b5e0fc045a21b, type: 2}
+  m_Motion: {fileID: 7400000, guid: 1f77a17f5dbe8f948a94ace313a750ef, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &1102225014586049176
+--- !u!1102 &1102362658117744422
 AnimatorState:
   serializedVersion: 5
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: CommunicationToTree
-  m_Speed: 1
+  m_Name: SuckersToPollen
+  m_Speed: -1
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -114,7 +114,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 4a376919cfb59984e8c5028322246f38, type: 2}
+  m_Motion: {fileID: 7400000, guid: 319d5f6a38f49e545a572c6b78ee9b37, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -145,14 +145,14 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &1102429606300659006
+--- !u!1102 &1102420039880042670
 AnimatorState:
   serializedVersion: 5
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: PollenToCommunication
-  m_Speed: 1
+  m_Speed: -1
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -164,7 +164,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 71972f19cf5a1834d8c247dd2ed3066f, type: 2}
+  m_Motion: {fileID: 7400000, guid: 95b156204f7ed9842a3b777d185f1dcf, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -190,6 +190,31 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 319d5f6a38f49e545a572c6b78ee9b37, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &1102454798818156144
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CommunicationToTree
+  m_Speed: -1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 6b9a65089c690584ca9fb7a79d864893, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -245,31 +270,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &1102917788963694338
-AnimatorState:
-  serializedVersion: 5
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: SuckersToPollen
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 907b6a29ea8e5fa4984ca1bbad67c27e, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
 --- !u!1107 &1107655371275448276
 AnimatorStateMachine:
   serializedVersion: 5
@@ -285,25 +285,25 @@ AnimatorStateMachine:
     m_State: {fileID: 1102646696344083600}
     m_Position: {x: 276, y: 0, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102157914425879518}
-    m_Position: {x: 384, y: 168, z: 0}
-  - serializedVersion: 1
     m_State: {fileID: 1102785396226874606}
     m_Position: {x: 624, y: 96, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 1102225014586049176}
-    m_Position: {x: 624, y: 168, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102405607056775920}
     m_Position: {x: 864, y: 96, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102429606300659006}
-    m_Position: {x: 864, y: 168, z: 0}
-  - serializedVersion: 1
     m_State: {fileID: 1102432443271128290}
     m_Position: {x: 1104, y: 96, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102917788963694338}
+    m_State: {fileID: 1102360064542809026}
+    m_Position: {x: 384, y: 168, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102454798818156144}
+    m_Position: {x: 624, y: 168, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102420039880042670}
+    m_Position: {x: 864, y: 168, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102362658117744422}
     m_Position: {x: 1104, y: 168, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []

@@ -15,7 +15,6 @@ public class PollenInteract : MonoBehaviour {
 	//checked of er op het object geklikt word
 	void OnMouseDown(){
 		
-		Debug.Log("fuck");
 
 		if(playerInfo.playerLocation == 4 && playerInfo.gameState == 2){
 			//Debug.Log(playerInfo.gameState);

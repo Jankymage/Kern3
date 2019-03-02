@@ -18,7 +18,7 @@ public class BorderStartTree : MonoBehaviour {
 	public PlayerInfo PlayerInfo;
 
 	void Update(){
-		
+
 	}
 
 	//checked of er op het object geklikt word
