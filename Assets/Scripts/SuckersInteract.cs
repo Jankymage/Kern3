@@ -10,7 +10,8 @@ using UnityEngine;
 public class SuckersInteract : MonoBehaviour {
 
 	public PlayerInfo playerInfo;
-	public GameObject pollenVisable;
+	public GameObject suckersOff;
+	public GameObject suckersOn;
 
 	//checked of er op het object geklikt word
 	void OnMouseDown(){
@@ -22,7 +23,8 @@ public class SuckersInteract : MonoBehaviour {
 			//zet image slacking suckers deactief 
 			//zet image active suckers actief
 
-			pollenVisable.SetActive(true);
+			suckersOff.SetActive(false);
+			suckersOn.SetActive(true);
 
 		}
 
