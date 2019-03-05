@@ -12,6 +12,8 @@ public class SuckersInteract : MonoBehaviour {
 	public PlayerInfo playerInfo;
 	public GameObject suckersOff;
 	public GameObject suckersOn;
+	public GameObject cloudFull;
+	public GameObject cloudHalf;
 
 	//checked of er op het object geklikt word
 	void OnMouseDown(){
@@ -25,6 +27,8 @@ public class SuckersInteract : MonoBehaviour {
 
 			suckersOff.SetActive(false);
 			suckersOn.SetActive(true);
+			cloudFull.SetActive(false);
+			cloudHalf.SetActive(true);
 
 		}
 

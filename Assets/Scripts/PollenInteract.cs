@@ -10,7 +10,9 @@ using UnityEngine;
 public class PollenInteract : MonoBehaviour {
 
 	public PlayerInfo playerInfo;
-	public GameObject pollenBalance;
+	//public GameObject pollenBalance;
+	public GameObject cloudHalf;
+	public GameObject cloudFinish;
 
 	//checked of er op het object geklikt word
 	void OnMouseDown(){
@@ -23,8 +25,11 @@ public class PollenInteract : MonoBehaviour {
 			//zet image over actieve pollen deactief 
 			//zet image normale pollen actief
 			
-			pollenBalance.SetActive(true);
+			//pollenBalance.SetActive(true);
 			
+			cloudHalf.SetActive(false);
+			cloudFinish.SetActive(true);
+
 			
 			//convetie?
 
