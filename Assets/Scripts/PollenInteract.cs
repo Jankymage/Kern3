@@ -13,25 +13,26 @@ public class PollenInteract : MonoBehaviour {
 	//public GameObject pollenBalance;
 	public GameObject cloudHalf;
 	public GameObject cloudFinish;
+	public GameObject CommStart;
+	public GameObject CommFinish;
 
 	//checked of er op het object geklikt word
 	void OnMouseDown(){
 		
 
 		if(playerInfo.playerLocation == 4 && playerInfo.gameState == 2){
-			//Debug.Log(playerInfo.gameState);
+	
 			playerInfo.gameState = 3;
-			//Debug.Log(playerInfo.gameState);
+
 			//zet image over actieve pollen deactief 
 			//zet image normale pollen actief
-			
-			//pollenBalance.SetActive(true);
 			
 			cloudHalf.SetActive(false);
 			cloudFinish.SetActive(true);
 
-			
-			//convetie?
+			CommStart.SetActive(false);
+			CommFinish.SetActive(true);
+
 
 		}
 
