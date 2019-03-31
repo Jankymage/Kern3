@@ -9,6 +9,10 @@ using UnityEngine;
 
 public class PollenInteract : MonoBehaviour {
 
+	//voor de animatie/verplaatsing
+	public Animator playerMovement;
+
+
 	public PlayerInfo playerInfo;
 	//public GameObject pollenBalance;
 	public GameObject cloudHalf;
@@ -32,6 +36,9 @@ public class PollenInteract : MonoBehaviour {
 
 			CommStart.SetActive(false);
 			CommFinish.SetActive(true);
+
+			playerMovement.Play("Finish");
+			playerInfo.playerLocation = 2;
 
 
 		}
