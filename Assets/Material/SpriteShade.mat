@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SpriteShade
-  m_Shader: {fileID: 4800000, guid: 518abb7462eed4048b1a625aa09c126c, type: 3}
+  m_Shader: {fileID: 4800000, guid: efea4ea8a7690464f912f3b298ae5415, type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _NORMALMAP_TANGENT_SPACE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -151,6 +151,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - PixelSnap: 0
+    - Vector1_38A62524: 0.199
+    - Vector1_769CA70A: 1
     - _AORemapMax: 1
     - _AORemapMin: 0
     - _ATDistance: 1
